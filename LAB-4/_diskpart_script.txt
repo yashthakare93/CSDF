@@ -1,0 +1,4 @@
+select disk C:
+    create partition primary size=1
+    assign letter=C:
+    exit

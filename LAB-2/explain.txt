@@ -1,0 +1,21 @@
+Q: What is the purpose of CAPTCHA?
+
+A: CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is used to prevent automated bots from accessing web services, ensuring that the user is human.
+Q: What does the ImageCaptcha class do?
+
+A: The ImageCaptcha class generates image-based CAPTCHA, which displays text in a distorted way to make it hard for bots to read while still being understandable for humans.
+Q: Why is it necessary to save the CAPTCHA image to a file?
+
+A: Saving the CAPTCHA image allows the user to visually verify the text before entering it, serving as a challenge that must be met to prove they are human.
+Q: How does the comparison between user input and CAPTCHA text work?
+
+A: The program takes the user input and compares it with the original text defined for the CAPTCHA. If they match, it indicates the user has correctly interpreted the CAPTCHA.
+Q: What happens if the user fails to enter the correct text?
+
+A: If the input does not match the CAPTCHA text, the program prints "Failed", indicating that the verification was unsuccessful.
+Q: What could be improved in this CAPTCHA implementation?
+
+A: Potential improvements could include generating random CAPTCHA texts instead of hardcoding them, adding noise or distortion to the image to increase difficulty, and enhancing security by integrating the CAPTCHA within a web application.
+Q: How would you modify the code to generate random CAPTCHA texts?
+
+A: You could use libraries like random or string to generate random strings of characters for the captcha_text variable before generating the image.

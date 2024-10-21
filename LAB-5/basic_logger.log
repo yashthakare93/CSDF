@@ -1,0 +1,5 @@
+2024-10-20 20:57:54,380 - DEBUG - Debug message
+2024-10-20 20:57:54,381 - INFO - Informative message
+2024-10-20 20:57:54,381 - ERROR - Error message
+2024-10-20 20:57:54,381 - INFO - This is an informative message from my custom logger.
+2024-10-20 20:57:54,381 - ERROR - This is an error message from my custom logger.

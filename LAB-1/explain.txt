@@ -1,0 +1,46 @@
+Q: What is an email and how does it work?
+A: Email (electronic mail) is a method of exchanging digital messages over the internet. It works through a system of servers and protocols: the sender's email client sends the message via SMTP (Simple Mail Transfer Protocol) to the sender's email server, which forwards it to the recipient's email server. The recipient retrieves the email using IMAP or POP protocols.
+
+Q: What are the key parts of an email?
+A: An email consists of three main parts:
+
+Header: Contains metadata such as sender, recipient, subject, and date.
+Body: The main content of the email, which can be plain text, HTML, or multimedia.
+Attachments: Files or documents sent along with the email.
+Q: What are the risks associated with email?
+A: Common risks include:
+
+Phishing: Fraudulent emails aimed at stealing sensitive information.
+Malware: Emails containing malicious attachments or links.
+Spoofing: Emails that appear to come from a trusted source but are not.
+Man-in-the-Middle Attack: Intercepting emails to steal data during transmission.
+Q: How can you analyze an email for authenticity?
+A: Steps to analyze an email include:
+
+Viewing and inspecting email headers.
+Checking SPF (Sender Policy Framework) and DKIM (DomainKeys Identified Mail) results to verify the sender's authenticity.
+Scanning attachments for malware.
+Inspecting links for potential phishing.
+Q: What is the significance of SPF and DKIM in email security?
+A: SPF and DKIM are authentication protocols:
+
+SPF helps prevent spoofing by specifying which mail servers are allowed to send emails on behalf of a domain.
+DKIM adds a digital signature to emails, allowing the recipient to verify that the email has not been altered and is indeed from the claimed sender.
+Q: What are the main parts of an email header?
+A: Key parts of an email header include:
+
+From: The sender's email address.
+To: The recipient’s email address.
+Subject: The topic of the email.
+Date: The date and time the email was sent.
+Message-ID: A unique identifier for the email.
+Received: Shows the path the email took from the sender to the recipient.
+Authentication-Results: Indicates whether the email passed SPF, DKIM, or DMARC checks.
+Q: Why is email header analysis important?
+A: Email header analysis is crucial for:
+
+Detecting phishing and spoofing attempts.
+Verifying the authenticity of the sender.
+Tracing the route of the email and identifying potential red flags.
+Uncovering malicious activity and understanding the email’s journey.
+
